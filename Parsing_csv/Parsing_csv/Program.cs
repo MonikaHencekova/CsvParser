@@ -14,7 +14,7 @@ namespace Parsing_csv
         static void Main(string[] args)
         {
             List<Product> productList = new List<Product>();
-            string[] fileLines = File.ReadAllLines(@"C:\Users\monny\Desktop\pdsfeed_footlocker_fr_neu.csv");
+            string[] fileLines = File.ReadAllLines(@"C:\Users\monny\Desktop\pdsfeed.csv");
 
 
             // Skip(1) - zaisti aby sa nevypisala hlavicka / nevypise sa prvy riadok suboru
